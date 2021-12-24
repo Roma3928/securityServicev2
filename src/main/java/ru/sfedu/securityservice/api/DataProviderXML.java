@@ -200,6 +200,7 @@ public class DataProviderXML implements DataProvider {
             return new Result<>(Outcomes.Fail, bond);
         }
         log.debug("Success", bond);
+        saveToLog(createHistoryContent(method, bond, Outcomes.Complete));
         return new Result<>(Outcomes.Complete, bond);
     }
 
@@ -218,9 +219,10 @@ public class DataProviderXML implements DataProvider {
         }
         objects.removeIf(o -> o.getId() == bond.getId());
         objects.add(bond);
-        if (beanToXml(objects, Constants.ID_NOT_EXISTS, method) == Outcomes.Fail) {
+        if (beanToXml(objects, Constants.BOND_XML, method) == Outcomes.Fail) {
             return new Result(Outcomes.Fail, bond);
         }
+        saveToLog(createHistoryContent(method, bond, Outcomes.Complete));
         return new Result(Outcomes.Complete, bond);
     }
 
@@ -249,6 +251,7 @@ public class DataProviderXML implements DataProvider {
         List<Bond> objects = xmlToBean(Constants.BOND_XML, method);
         objects.removeIf(o -> o.getId() == id);
         beanToXml(objects, Constants.BOND_XML, method);
+        saveToLog(createHistoryContent(method, id, Outcomes.Complete));
         return new Result<>(Outcomes.Complete);
     }
 
@@ -270,6 +273,7 @@ public class DataProviderXML implements DataProvider {
             return new Result<>(Outcomes.Fail, comment);
         }
         log.debug("Success", comment);
+        saveToLog(createHistoryContent(method, comment, Outcomes.Complete));
         return new Result<>(Outcomes.Complete, comment);
     }
 
@@ -288,9 +292,10 @@ public class DataProviderXML implements DataProvider {
         }
         objects.removeIf(o -> o.getId() == comment.getId());
         objects.add(comment);
-        if (beanToXml(objects, Constants.ID_NOT_EXISTS, method) == Outcomes.Fail) {
+        if (beanToXml(objects, Constants.COMMENT_XML, method) == Outcomes.Fail) {
             return new Result(Outcomes.Fail, comment);
         }
+        saveToLog(createHistoryContent(method, comment, Outcomes.Complete));
         return new Result(Outcomes.Complete, comment);
     }
 
@@ -319,6 +324,7 @@ public class DataProviderXML implements DataProvider {
         List<Comment> objects = xmlToBean(Constants.COMMENT_XML, method);
         objects.removeIf(o -> o.getId() == id);
         beanToXml(objects, Constants.COMMENT_XML, method);
+        saveToLog(createHistoryContent(method, id, Outcomes.Complete));
         return new Result<>(Outcomes.Complete);
     }
 
@@ -340,6 +346,7 @@ public class DataProviderXML implements DataProvider {
             return new Result<>(Outcomes.Fail, exchangeTradedFunction);
         }
         log.debug("Success", exchangeTradedFunctions);
+        saveToLog(createHistoryContent(method, exchangeTradedFunction, Outcomes.Complete));
         return new Result<>(Outcomes.Complete, exchangeTradedFunction);
     }
 
@@ -361,6 +368,7 @@ public class DataProviderXML implements DataProvider {
         if (beanToXml(objects, Constants.ID_NOT_EXISTS, method) == Outcomes.Fail) {
             return new Result(Outcomes.Fail, exchangeTradedFunction);
         }
+        saveToLog(createHistoryContent(method, exchangeTradedFunction, Outcomes.Complete));
         return new Result(Outcomes.Complete, exchangeTradedFunction);
     }
 
@@ -389,6 +397,7 @@ public class DataProviderXML implements DataProvider {
         List<ExchangeTradedFunction> objects = xmlToBean(Constants.ETF_XML, method);
         objects.removeIf(o -> o.getId() == id);
         beanToXml(objects, Constants.ETF_XML, method);
+        saveToLog(createHistoryContent(method, id, Outcomes.Complete));
         return new Result<>(Outcomes.Complete);
     }
 
@@ -410,6 +419,7 @@ public class DataProviderXML implements DataProvider {
             return new Result<>(Outcomes.Fail, securityPaper);
         }
         log.debug("Success", securityPaper);
+        saveToLog(createHistoryContent(method, securityPaper, Outcomes.Complete));
         return new Result<>(Outcomes.Complete, securityPaper);
     }
 
@@ -428,9 +438,10 @@ public class DataProviderXML implements DataProvider {
         }
         objects.removeIf(o -> o.getId() == securityPaper.getId());
         objects.add(securityPaper);
-        if (beanToXml(objects, Constants.ID_NOT_EXISTS, method) == Outcomes.Fail) {
+        if (beanToXml(objects, Constants.SECURITY_XML, method) == Outcomes.Fail) {
             return new Result(Outcomes.Fail, securityPaper);
         }
+        saveToLog(createHistoryContent(method, securityPaper, Outcomes.Complete));
         return new Result(Outcomes.Complete, securityPaper);
     }
 
@@ -459,6 +470,7 @@ public class DataProviderXML implements DataProvider {
         List<SecurityPaper> objects = xmlToBean(Constants.SECURITY_XML, method);
         objects.removeIf(o -> o.getId() == id);
         beanToXml(objects, Constants.SECURITY_XML, method);
+        saveToLog(createHistoryContent(method, id, Outcomes.Complete));
         return new Result<>(Outcomes.Complete);
     }
 
@@ -480,6 +492,7 @@ public class DataProviderXML implements DataProvider {
             return new Result<>(Outcomes.Fail, stock);
         }
         log.debug("Success", stockList);
+        saveToLog(createHistoryContent(method, stock, Outcomes.Complete));
         return new Result<>(Outcomes.Complete, stock);
     }
 
@@ -498,9 +511,10 @@ public class DataProviderXML implements DataProvider {
         }
         objects.removeIf(o -> o.getId() == stock.getId());
         objects.add(stock);
-        if (beanToXml(objects, Constants.ID_NOT_EXISTS, method) == Outcomes.Fail) {
+        if (beanToXml(objects, Constants.STOCK_XML, method) == Outcomes.Fail) {
             return new Result(Outcomes.Fail, stock);
         }
+        saveToLog(createHistoryContent(method, stock, Outcomes.Complete));
         return new Result(Outcomes.Complete, stock);
     }
 
@@ -529,6 +543,7 @@ public class DataProviderXML implements DataProvider {
         List<Stock> objects = xmlToBean(Constants.STOCK_XML, method);
         objects.removeIf(o -> o.getId() == id);
         beanToXml(objects, Constants.STOCK_XML, method);
+        saveToLog(createHistoryContent(method, id, Outcomes.Complete));
         return new Result<>(Outcomes.Complete);
     }
 
@@ -550,6 +565,7 @@ public class DataProviderXML implements DataProvider {
             return new Result<>(Outcomes.Fail, user);
         }
         log.debug("Success", users);
+        saveToLog(createHistoryContent(method, user, Outcomes.Complete));
         return new Result<>(Outcomes.Complete, user);
     }
 
@@ -568,9 +584,10 @@ public class DataProviderXML implements DataProvider {
         }
         objects.removeIf(o -> o.getId() == user.getId());
         objects.add(user);
-        if (beanToXml(objects, Constants.ID_NOT_EXISTS, method) == Outcomes.Fail) {
+        if (beanToXml(objects, Constants.USER_XML, method) == Outcomes.Fail) {
             return new Result(Outcomes.Fail, user);
         }
+        saveToLog(createHistoryContent(method, user, Outcomes.Complete));
         return new Result(Outcomes.Complete, user);
     }
 
@@ -599,6 +616,7 @@ public class DataProviderXML implements DataProvider {
         List<User> objects = xmlToBean(Constants.USER_XML, method);
         objects.removeIf(o -> o.getId() == id);
         beanToXml(objects, Constants.USER_XML, method);
+        saveToLog(createHistoryContent(method, id, Outcomes.Complete));
         return new Result<>(Outcomes.Complete);
     }
 
@@ -615,7 +633,7 @@ public class DataProviderXML implements DataProvider {
             log.error(exception);
             outcomes = Outcomes.Fail;
         }
-        saveToLog(createHistoryContent(method, ts, outcomes));
+        //saveToLog(createHistoryContent(method, ts, outcomes));
         return outcomes;
     }
 
