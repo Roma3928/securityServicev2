@@ -1,0 +1,18 @@
+<list>
+   <object class="ru.sfedu.securityservice.models.SecurityPaper" id="1">
+      <name>Eugen</name>
+      <cost>8000</cost>
+   </object>
+   <object class="ru.sfedu.securityservice.models.SecurityPaper" id="2">
+      <name>Victor</name>
+      <cost>7000</cost>
+   </object>
+   <object class="ru.sfedu.securityservice.models.SecurityPaper" id="3">
+      <name>Lisa</name>
+      <cost>300</cost>
+   </object>
+   <object class="ru.sfedu.securityservice.models.SecurityPaper" id="4">
+      <name>Valeriy</name>
+      <cost>9000</cost>
+   </object>
+</list>

@@ -1,0 +1,22 @@
+<list>
+   <object class="ru.sfedu.securityservice.models.ExchangeTradedFunction" id="1">
+      <name>Eugen</name>
+      <cost>8000</cost>
+      <direction>Stock</direction>
+   </object>
+   <object class="ru.sfedu.securityservice.models.ExchangeTradedFunction" id="2">
+      <name>Victor</name>
+      <cost>7000</cost>
+      <direction>Bond</direction>
+   </object>
+   <object class="ru.sfedu.securityservice.models.ExchangeTradedFunction" id="3">
+      <name>Lisa</name>
+      <cost>300</cost>
+      <direction>Meta</direction>
+   </object>
+   <object class="ru.sfedu.securityservice.models.ExchangeTradedFunction" id="4">
+      <name>Valeriy</name>
+      <cost>9000</cost>
+      <direction>Stock</direction>
+   </object>
+</list>

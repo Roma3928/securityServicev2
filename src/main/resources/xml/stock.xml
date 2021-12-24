@@ -1,0 +1,26 @@
+<list>
+   <object class="ru.sfedu.securityservice.models.Stock" id="1">
+      <name>Eugen</name>
+      <cost>8000</cost>
+      <normalValue>18000</normalValue>
+      <category>COMMON</category>
+   </object>
+   <object class="ru.sfedu.securityservice.models.Stock" id="2">
+      <name>Victor</name>
+      <cost>7000</cost>
+      <normalValue>17000</normalValue>
+      <category>PREFERENCE</category>
+   </object>
+   <object class="ru.sfedu.securityservice.models.Stock" id="3">
+      <name>Lisa</name>
+      <cost>300</cost>
+      <normalValue>1300</normalValue>
+      <category>COMMON</category>
+   </object>
+   <object class="ru.sfedu.securityservice.models.Stock" id="4">
+      <name>Valeriy</name>
+      <cost>9000</cost>
+      <normalValue>19000</normalValue>
+      <category>PREFERENCE</category>
+   </object>
+</list>

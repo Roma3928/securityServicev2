@@ -1,0 +1,26 @@
+<list>
+   <object class="ru.sfedu.securityservice.models.Bond" id="1">
+      <name>Eugen</name>
+      <cost>8000</cost>
+      <nominalValue>18000</nominalValue>
+      <type>Government</type>
+   </object>
+   <object class="ru.sfedu.securityservice.models.Bond" id="2">
+      <name>Victor</name>
+      <cost>7000</cost>
+      <nominalValue>17000</nominalValue>
+      <type>Municipal</type>
+   </object>
+   <object class="ru.sfedu.securityservice.models.Bond" id="3">
+      <name>Lisa</name>
+      <cost>300</cost>
+      <nominalValue>1300</nominalValue>
+      <type>Corporation</type>
+   </object>
+   <object class="ru.sfedu.securityservice.models.Bond" id="4">
+      <name>Valeriy</name>
+      <cost>9000</cost>
+      <nominalValue>19000</nominalValue>
+      <type>Government</type>
+   </object>
+</list>

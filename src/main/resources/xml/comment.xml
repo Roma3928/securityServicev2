@@ -1,0 +1,34 @@
+<list>
+   <object class="ru.sfedu.securityservice.models.Comment" id="1">
+      <userId>1</userId>
+      <paper id="2">
+         <name>Victor</name>
+         <cost>7000</cost>
+      </paper>
+      <content>Bad service</content>
+   </object>
+   <object class="ru.sfedu.securityservice.models.Comment" id="2">
+      <userId>2</userId>
+      <paper id="1">
+         <name>Eugen</name>
+         <cost>8000</cost>
+      </paper>
+      <content>Bond perfect</content>
+   </object>
+   <object class="ru.sfedu.securityservice.models.Comment" id="3">
+      <userId>3</userId>
+      <paper id="2">
+         <name>Victor</name>
+         <cost>7000</cost>
+      </paper>
+      <content>Illegal service</content>
+   </object>
+   <object class="ru.sfedu.securityservice.models.Comment" id="4">
+      <userId>4</userId>
+      <paper id="1">
+         <name>Eugen</name>
+         <cost>8000</cost>
+      </paper>
+      <content>Secure is vell</content>
+   </object>
+</list>
