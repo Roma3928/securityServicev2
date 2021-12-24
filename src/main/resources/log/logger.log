@@ -4637,3 +4637,718 @@ SELECT * FROM exchangetradedfunction WHERE Id=8 [42102-200]
 2021-12-24 09:36:49 ERROR DataProviderCsv:615 - java.lang.NullPointerException
 2021-12-24 09:37:41 ERROR DataProviderCsv:615 - java.lang.NullPointerException
 2021-12-24 09:44:32 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 11:50:09 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs0: org.h2.result.LocalResultImpl@89c10b7 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs1: org.h2.result.LocalResultImpl@55795845 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs2: org.h2.result.LocalResultImpl@1a1da881 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs3: org.h2.result.LocalResultImpl@165b8a71 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs4: org.h2.result.LocalResultImpl@756cf158 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs5: org.h2.result.LocalResultImpl@76c7beb3 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=17000, category=PREFERENCE}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs6: org.h2.result.LocalResultImpl@60d8c0dc columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs7: org.h2.result.LocalResultImpl@4602c2a9 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs8: org.h2.result.LocalResultImpl@79e18e38 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs9: org.h2.result.LocalResultImpl@69c79f09 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs10: org.h2.result.LocalResultImpl@533b266e columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs11: org.h2.result.LocalResultImpl@6865c751 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=17000, type=Municipal}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=17000, type=Municipal}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=17000, category=PREFERENCE}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Bond}
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs12: org.h2.result.LocalResultImpl@60b71e8f columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs13: org.h2.result.LocalResultImpl@7c22d4f columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs14: org.h2.result.LocalResultImpl@47da3952 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs15: org.h2.result.LocalResultImpl@495083a0 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs16: org.h2.result.LocalResultImpl@2b62442c columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs17: org.h2.result.LocalResultImpl@27a5328c columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=17000, category=PREFERENCE}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Bond}
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs18: org.h2.result.LocalResultImpl@7de0c6ae columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs19: org.h2.result.LocalResultImpl@4c36250e columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs20: org.h2.result.LocalResultImpl@66ea1466 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs21: org.h2.result.LocalResultImpl@517bd097 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs22: org.h2.result.LocalResultImpl@35d6ca49 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs23: org.h2.result.LocalResultImpl@f415a95 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=17000, type=Municipal}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Bond}
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs24: org.h2.result.LocalResultImpl@355e34c7 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs25: org.h2.result.LocalResultImpl@476aac9 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs26: org.h2.result.LocalResultImpl@59aa20b3 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs27: org.h2.result.LocalResultImpl@4816c290 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs28: org.h2.result.LocalResultImpl@578524c3 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=8
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:685 - rs29: org.h2.result.LocalResultImpl@7555b920 columns: 2 rows: 0 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs31: org.h2.result.LocalResultImpl@6970140a columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs32: org.h2.result.LocalResultImpl@466cf502 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs33: org.h2.result.LocalResultImpl@407cf41 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs34: org.h2.result.LocalResultImpl@1c32886a columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs36: org.h2.result.LocalResultImpl@1a2e2935 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs37: org.h2.result.LocalResultImpl@aa22f1c columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs38: org.h2.result.LocalResultImpl@2af616d3 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs39: org.h2.result.LocalResultImpl@3aee3976 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs41: org.h2.result.LocalResultImpl@200a26bc columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs42: org.h2.result.LocalResultImpl@34abdee4 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs43: org.h2.result.LocalResultImpl@21ca139c columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs44: org.h2.result.LocalResultImpl@52350abb columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs45: org.h2.result.LocalResultImpl@1b58ff9e columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:685 - rs46: org.h2.result.LocalResultImpl@3277e499 columns: 2 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM USERSECURITYPAPER WHERE USERID=1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs48: org.h2.result.LocalResultImpl@5aa0dbf4 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs50: org.h2.result.LocalResultImpl@4d411036 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs51: org.h2.result.LocalResultImpl@37fbe4a8 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs52: org.h2.result.LocalResultImpl@10027fc9 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs53: org.h2.result.LocalResultImpl@263f04ca columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM SECURITYPAPER
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs55: org.h2.result.LocalResultImpl@67af833b columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs56: org.h2.result.LocalResultImpl@5769e7ae columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs57: org.h2.result.LocalResultImpl@5489c777 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs58: org.h2.result.LocalResultImpl@5149f008 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:685 - rs59: org.h2.result.LocalResultImpl@2b5cb9b2 columns: 2 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM USERSECURITYPAPER WHERE USERID=1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs61: org.h2.result.LocalResultImpl@40f33492 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs63: org.h2.result.LocalResultImpl@173b9122 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs64: org.h2.result.LocalResultImpl@5a4bef8 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs65: org.h2.result.LocalResultImpl@5d8445d7 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs66: org.h2.result.LocalResultImpl@6b9267b columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs68: org.h2.result.LocalResultImpl@14bb2297 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs69: org.h2.result.LocalResultImpl@51650883 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs70: org.h2.result.LocalResultImpl@596df867 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs71: org.h2.result.LocalResultImpl@70e659aa columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs73: org.h2.result.LocalResultImpl@66238be2 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs74: org.h2.result.LocalResultImpl@3e587920 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs75: org.h2.result.LocalResultImpl@7544a1e4 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs76: org.h2.result.LocalResultImpl@4fdfa676 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs77: org.h2.result.LocalResultImpl@5ea502e0 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:685 - rs78: org.h2.result.LocalResultImpl@5ed190be columns: 2 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM USERSECURITYPAPER WHERE USERID=1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs80: org.h2.result.LocalResultImpl@3d4d3fe7 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs82: org.h2.result.LocalResultImpl@4e9658b5 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs83: org.h2.result.LocalResultImpl@7db0565c columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs84: org.h2.result.LocalResultImpl@1a6f5124 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs85: org.h2.result.LocalResultImpl@29539e36 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs87: org.h2.result.LocalResultImpl@66d23e4a columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs88: org.h2.result.LocalResultImpl@77b21474 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs89: org.h2.result.LocalResultImpl@22680f52 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:584 - rs90: org.h2.result.LocalResultImpl@72bca894 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs92: org.h2.result.LocalResultImpl@37d3d232 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs93: org.h2.result.LocalResultImpl@1d572e62 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs94: org.h2.result.LocalResultImpl@2f40a43 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:411 - rs95: org.h2.result.LocalResultImpl@547e29a4 columns: 4 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:495 - rs96: org.h2.result.LocalResultImpl@21680803 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=8
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:685 - rs97: org.h2.result.LocalResultImpl@2024293c columns: 2 rows: 0 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM BOND
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs99: org.h2.result.LocalResultImpl@2d0566ba columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs100: org.h2.result.LocalResultImpl@1cfd1875 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=3
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs101: org.h2.result.LocalResultImpl@436390f4 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=4
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs102: org.h2.result.LocalResultImpl@54e7391d columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM BOND
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs104: org.h2.result.LocalResultImpl@62c5bbdc columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 11:52:04 DEBUG DataProviderJdbc:240 - rs105: org.h2.result.LocalResultImpl@475b7792 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:04 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=3
+2021-12-24 11:52:05 DEBUG DataProviderJdbc:240 - rs106: org.h2.result.LocalResultImpl@2fa7ae9 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:05 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=4
+2021-12-24 11:52:05 DEBUG DataProviderJdbc:240 - rs107: org.h2.result.LocalResultImpl@28a2a3e7 columns: 5 rows: 1 pos: -1
+2021-12-24 11:52:05 INFO  DataProviderJdbc:804 - SELECT * FROM SECURITYPAPER
+2021-12-24 11:52:05 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 11:52:05 DEBUG DataProviderJdbc:495 - rs109: org.h2.result.LocalResultImpl@24855019 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:05 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=2
+2021-12-24 11:52:05 DEBUG DataProviderJdbc:495 - rs110: org.h2.result.LocalResultImpl@3fabf088 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:05 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=3
+2021-12-24 11:52:05 DEBUG DataProviderJdbc:495 - rs111: org.h2.result.LocalResultImpl@7bd69e82 columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:05 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=4
+2021-12-24 11:52:05 DEBUG DataProviderJdbc:495 - rs112: org.h2.result.LocalResultImpl@6b85300e columns: 3 rows: 1 pos: -1
+2021-12-24 11:52:25 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 11:52:25 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 11:52:26 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:20:05 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:20:05 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:20:06 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:21:58 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:21:58 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:21:59 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs0: org.h2.result.LocalResultImpl@89c10b7 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs1: org.h2.result.LocalResultImpl@55795845 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs2: org.h2.result.LocalResultImpl@1a1da881 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs3: org.h2.result.LocalResultImpl@165b8a71 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs4: org.h2.result.LocalResultImpl@756cf158 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs5: org.h2.result.LocalResultImpl@76c7beb3 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs6: org.h2.result.LocalResultImpl@60d8c0dc columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs7: org.h2.result.LocalResultImpl@4602c2a9 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs8: org.h2.result.LocalResultImpl@79e18e38 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs9: org.h2.result.LocalResultImpl@69c79f09 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs10: org.h2.result.LocalResultImpl@533b266e columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs11: org.h2.result.LocalResultImpl@6865c751 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=17000, category=PREFERENCE}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Bond}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs12: org.h2.result.LocalResultImpl@60b71e8f columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs13: org.h2.result.LocalResultImpl@7c22d4f columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs14: org.h2.result.LocalResultImpl@47da3952 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs15: org.h2.result.LocalResultImpl@495083a0 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs16: org.h2.result.LocalResultImpl@2b62442c columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs17: org.h2.result.LocalResultImpl@27a5328c columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=17000, type=Municipal}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=17000, category=PREFERENCE}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Bond}
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs18: org.h2.result.LocalResultImpl@7de0c6ae columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs19: org.h2.result.LocalResultImpl@4c36250e columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs20: org.h2.result.LocalResultImpl@66ea1466 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs21: org.h2.result.LocalResultImpl@517bd097 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs22: org.h2.result.LocalResultImpl@35d6ca49 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs23: org.h2.result.LocalResultImpl@f415a95 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=17000, type=Municipal}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=17000, type=Municipal}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs24: org.h2.result.LocalResultImpl@355e34c7 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs25: org.h2.result.LocalResultImpl@476aac9 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs26: org.h2.result.LocalResultImpl@59aa20b3 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs27: org.h2.result.LocalResultImpl@4816c290 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs28: org.h2.result.LocalResultImpl@578524c3 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=8
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:685 - rs29: org.h2.result.LocalResultImpl@7555b920 columns: 2 rows: 0 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs31: org.h2.result.LocalResultImpl@6970140a columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs32: org.h2.result.LocalResultImpl@466cf502 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs33: org.h2.result.LocalResultImpl@407cf41 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs34: org.h2.result.LocalResultImpl@1c32886a columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs36: org.h2.result.LocalResultImpl@1a2e2935 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs37: org.h2.result.LocalResultImpl@aa22f1c columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs38: org.h2.result.LocalResultImpl@2af616d3 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs39: org.h2.result.LocalResultImpl@3aee3976 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs41: org.h2.result.LocalResultImpl@200a26bc columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs42: org.h2.result.LocalResultImpl@34abdee4 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs43: org.h2.result.LocalResultImpl@21ca139c columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs44: org.h2.result.LocalResultImpl@52350abb columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs45: org.h2.result.LocalResultImpl@1b58ff9e columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:685 - rs46: org.h2.result.LocalResultImpl@3277e499 columns: 2 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM USERSECURITYPAPER WHERE USERID=1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs48: org.h2.result.LocalResultImpl@5aa0dbf4 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs50: org.h2.result.LocalResultImpl@4d411036 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs51: org.h2.result.LocalResultImpl@37fbe4a8 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs52: org.h2.result.LocalResultImpl@10027fc9 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs53: org.h2.result.LocalResultImpl@263f04ca columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM SECURITYPAPER
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs55: org.h2.result.LocalResultImpl@67af833b columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs56: org.h2.result.LocalResultImpl@5769e7ae columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs57: org.h2.result.LocalResultImpl@5489c777 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs58: org.h2.result.LocalResultImpl@5149f008 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:685 - rs59: org.h2.result.LocalResultImpl@2b5cb9b2 columns: 2 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM USERSECURITYPAPER WHERE USERID=1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs61: org.h2.result.LocalResultImpl@40f33492 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs63: org.h2.result.LocalResultImpl@173b9122 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs64: org.h2.result.LocalResultImpl@5a4bef8 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs65: org.h2.result.LocalResultImpl@5d8445d7 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs66: org.h2.result.LocalResultImpl@6b9267b columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs68: org.h2.result.LocalResultImpl@14bb2297 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs69: org.h2.result.LocalResultImpl@51650883 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs70: org.h2.result.LocalResultImpl@596df867 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs71: org.h2.result.LocalResultImpl@70e659aa columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs73: org.h2.result.LocalResultImpl@66238be2 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs74: org.h2.result.LocalResultImpl@3e587920 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs75: org.h2.result.LocalResultImpl@7544a1e4 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs76: org.h2.result.LocalResultImpl@4fdfa676 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs77: org.h2.result.LocalResultImpl@5ea502e0 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:685 - rs78: org.h2.result.LocalResultImpl@5ed190be columns: 2 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM USERSECURITYPAPER WHERE USERID=1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs80: org.h2.result.LocalResultImpl@3d4d3fe7 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs82: org.h2.result.LocalResultImpl@4e9658b5 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs83: org.h2.result.LocalResultImpl@7db0565c columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs84: org.h2.result.LocalResultImpl@1a6f5124 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs85: org.h2.result.LocalResultImpl@29539e36 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs87: org.h2.result.LocalResultImpl@66d23e4a columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs88: org.h2.result.LocalResultImpl@77b21474 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs89: org.h2.result.LocalResultImpl@22680f52 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:584 - rs90: org.h2.result.LocalResultImpl@72bca894 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs92: org.h2.result.LocalResultImpl@37d3d232 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs93: org.h2.result.LocalResultImpl@1d572e62 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs94: org.h2.result.LocalResultImpl@2f40a43 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:411 - rs95: org.h2.result.LocalResultImpl@547e29a4 columns: 4 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs96: org.h2.result.LocalResultImpl@21680803 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=8
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:685 - rs97: org.h2.result.LocalResultImpl@2024293c columns: 2 rows: 0 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM BOND
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs99: org.h2.result.LocalResultImpl@2d0566ba columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs100: org.h2.result.LocalResultImpl@1cfd1875 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs101: org.h2.result.LocalResultImpl@436390f4 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs102: org.h2.result.LocalResultImpl@54e7391d columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM BOND
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs104: org.h2.result.LocalResultImpl@62c5bbdc columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs105: org.h2.result.LocalResultImpl@475b7792 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=3
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs106: org.h2.result.LocalResultImpl@2fa7ae9 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=4
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:240 - rs107: org.h2.result.LocalResultImpl@28a2a3e7 columns: 5 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM SECURITYPAPER
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 13:24:48 DEBUG DataProviderJdbc:495 - rs109: org.h2.result.LocalResultImpl@24855019 columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:48 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=2
+2021-12-24 13:24:49 DEBUG DataProviderJdbc:495 - rs110: org.h2.result.LocalResultImpl@44ea608c columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:49 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=3
+2021-12-24 13:24:49 DEBUG DataProviderJdbc:495 - rs111: org.h2.result.LocalResultImpl@1af1347d columns: 3 rows: 1 pos: -1
+2021-12-24 13:24:49 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=4
+2021-12-24 13:24:49 DEBUG DataProviderJdbc:495 - rs112: org.h2.result.LocalResultImpl@1e8823d2 columns: 3 rows: 1 pos: -1
+2021-12-24 13:30:45 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:30:45 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:30:45 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:39:44 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:39:44 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 13:39:44 ERROR DataProviderCsv:615 - java.lang.NullPointerException
+2021-12-24 21:09:18 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 21:09:18 DEBUG DataProviderJdbc:240 - rs0: org.h2.result.LocalResultImpl@89c10b7 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:18 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 21:09:18 DEBUG DataProviderJdbc:584 - rs1: org.h2.result.LocalResultImpl@55795845 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:18 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 21:09:18 DEBUG DataProviderJdbc:411 - rs2: org.h2.result.LocalResultImpl@1a1da881 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:18 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 21:09:18 DEBUG DataProviderJdbc:240 - rs3: org.h2.result.LocalResultImpl@165b8a71 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:18 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 21:09:18 DEBUG DataProviderJdbc:584 - rs4: org.h2.result.LocalResultImpl@756cf158 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:18 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 21:09:18 DEBUG DataProviderJdbc:411 - rs5: org.h2.result.LocalResultImpl@76c7beb3 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Bond}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Bond}
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs6: org.h2.result.LocalResultImpl@60d8c0dc columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs7: org.h2.result.LocalResultImpl@4602c2a9 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs8: org.h2.result.LocalResultImpl@79e18e38 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs9: org.h2.result.LocalResultImpl@69c79f09 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs10: org.h2.result.LocalResultImpl@533b266e columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs11: org.h2.result.LocalResultImpl@6865c751 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs12: org.h2.result.LocalResultImpl@60b71e8f columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs13: org.h2.result.LocalResultImpl@7c22d4f columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs14: org.h2.result.LocalResultImpl@47da3952 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs15: org.h2.result.LocalResultImpl@495083a0 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs16: org.h2.result.LocalResultImpl@2b62442c columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs17: org.h2.result.LocalResultImpl@27a5328c columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=17000, type=Municipal}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=17000, category=PREFERENCE}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs18: org.h2.result.LocalResultImpl@7de0c6ae columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs19: org.h2.result.LocalResultImpl@4c36250e columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs20: org.h2.result.LocalResultImpl@66ea1466 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs21: org.h2.result.LocalResultImpl@517bd097 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs22: org.h2.result.LocalResultImpl@35d6ca49 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs23: org.h2.result.LocalResultImpl@f415a95 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=17000, type=Municipal}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=18000, category=COMMON}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Bond}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Bond{nominalValue=18000, type=Government}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db Stock{normalValue=17000, category=PREFERENCE}
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:642 - will add to db ExchangeTradedFunction{direction=Stock}
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs24: org.h2.result.LocalResultImpl@355e34c7 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs25: org.h2.result.LocalResultImpl@476aac9 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs26: org.h2.result.LocalResultImpl@59aa20b3 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs27: org.h2.result.LocalResultImpl@4816c290 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs28: org.h2.result.LocalResultImpl@578524c3 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=8
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:685 - rs29: org.h2.result.LocalResultImpl@7555b920 columns: 2 rows: 0 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs31: org.h2.result.LocalResultImpl@6970140a columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs32: org.h2.result.LocalResultImpl@466cf502 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs33: org.h2.result.LocalResultImpl@407cf41 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs34: org.h2.result.LocalResultImpl@1c32886a columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs36: org.h2.result.LocalResultImpl@1a2e2935 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs37: org.h2.result.LocalResultImpl@aa22f1c columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs38: org.h2.result.LocalResultImpl@2af616d3 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs39: org.h2.result.LocalResultImpl@3aee3976 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs41: org.h2.result.LocalResultImpl@200a26bc columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs42: org.h2.result.LocalResultImpl@34abdee4 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs43: org.h2.result.LocalResultImpl@21ca139c columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs44: org.h2.result.LocalResultImpl@52350abb columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs45: org.h2.result.LocalResultImpl@1b58ff9e columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:685 - rs46: org.h2.result.LocalResultImpl@3277e499 columns: 2 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM USERSECURITYPAPER WHERE USERID=1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs48: org.h2.result.LocalResultImpl@5aa0dbf4 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs50: org.h2.result.LocalResultImpl@4d411036 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs51: org.h2.result.LocalResultImpl@37fbe4a8 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs52: org.h2.result.LocalResultImpl@10027fc9 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs53: org.h2.result.LocalResultImpl@263f04ca columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM SECURITYPAPER
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs55: org.h2.result.LocalResultImpl@67af833b columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs56: org.h2.result.LocalResultImpl@5769e7ae columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs57: org.h2.result.LocalResultImpl@5489c777 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs58: org.h2.result.LocalResultImpl@5149f008 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:685 - rs59: org.h2.result.LocalResultImpl@2b5cb9b2 columns: 2 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM USERSECURITYPAPER WHERE USERID=1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs61: org.h2.result.LocalResultImpl@40f33492 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs63: org.h2.result.LocalResultImpl@173b9122 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs64: org.h2.result.LocalResultImpl@5a4bef8 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs65: org.h2.result.LocalResultImpl@5d8445d7 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs66: org.h2.result.LocalResultImpl@6b9267b columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs68: org.h2.result.LocalResultImpl@14bb2297 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs69: org.h2.result.LocalResultImpl@51650883 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs70: org.h2.result.LocalResultImpl@596df867 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs71: org.h2.result.LocalResultImpl@70e659aa columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs73: org.h2.result.LocalResultImpl@66238be2 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs74: org.h2.result.LocalResultImpl@3e587920 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs75: org.h2.result.LocalResultImpl@7544a1e4 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs76: org.h2.result.LocalResultImpl@4fdfa676 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs77: org.h2.result.LocalResultImpl@5ea502e0 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:685 - rs78: org.h2.result.LocalResultImpl@5ed190be columns: 2 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM USERSECURITYPAPER WHERE USERID=1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs80: org.h2.result.LocalResultImpl@3d4d3fe7 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs82: org.h2.result.LocalResultImpl@4e9658b5 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs83: org.h2.result.LocalResultImpl@7db0565c columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs84: org.h2.result.LocalResultImpl@1a6f5124 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs85: org.h2.result.LocalResultImpl@29539e36 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM STOCK
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs87: org.h2.result.LocalResultImpl@66d23e4a columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs88: org.h2.result.LocalResultImpl@77b21474 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs89: org.h2.result.LocalResultImpl@22680f52 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM stock WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:584 - rs90: org.h2.result.LocalResultImpl@72bca894 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM EXCHANGETRADEDFUNCTION
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs92: org.h2.result.LocalResultImpl@37d3d232 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs93: org.h2.result.LocalResultImpl@1d572e62 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs94: org.h2.result.LocalResultImpl@2f40a43 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM exchangetradedfunction WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:411 - rs95: org.h2.result.LocalResultImpl@547e29a4 columns: 4 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs96: org.h2.result.LocalResultImpl@21680803 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM user WHERE Id=8
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:685 - rs97: org.h2.result.LocalResultImpl@2024293c columns: 2 rows: 0 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM BOND
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs99: org.h2.result.LocalResultImpl@2d0566ba columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs100: org.h2.result.LocalResultImpl@1cfd1875 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs101: org.h2.result.LocalResultImpl@436390f4 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs102: org.h2.result.LocalResultImpl@54e7391d columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM BOND
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs104: org.h2.result.LocalResultImpl@62c5bbdc columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs105: org.h2.result.LocalResultImpl@475b7792 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs106: org.h2.result.LocalResultImpl@2fa7ae9 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM bond WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:240 - rs107: org.h2.result.LocalResultImpl@28a2a3e7 columns: 5 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM SECURITYPAPER
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=1
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs109: org.h2.result.LocalResultImpl@24855019 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=2
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs110: org.h2.result.LocalResultImpl@3fabf088 columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=3
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs111: org.h2.result.LocalResultImpl@1af1347d columns: 3 rows: 1 pos: -1
+2021-12-24 21:09:19 INFO  DataProviderJdbc:804 - SELECT * FROM securitypaper WHERE Id=4
+2021-12-24 21:09:19 DEBUG DataProviderJdbc:495 - rs112: org.h2.result.LocalResultImpl@1e8823d2 columns: 3 rows: 1 pos: -1
