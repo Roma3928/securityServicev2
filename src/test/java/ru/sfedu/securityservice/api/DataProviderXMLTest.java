@@ -11,7 +11,7 @@ import ru.sfedu.securityservice.utils.DataGeneratorForCSVProvider;
 class DataProviderXMLTest {
 
     public static DataProvider instance = new DataProviderXML();
-    public static final Logger log = LogManager.getLogger(DataProviderCsvTest.class);
+    public static final Logger log = LogManager.getLogger(DataProviderXMLTest.class);
 
     @BeforeAll
     static void setCSVEnv() {
