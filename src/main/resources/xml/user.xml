@@ -1,43 +1,4 @@
 <list>
-   <object class="ru.sfedu.securityservice.models.User" id="1">
-      <name>Eugen</name>
-      <favorites class="java.util.ArrayList">
-         <securitypaper class="ru.sfedu.securityservice.models.Bond" id="2">
-            <name>Victor</name>
-            <cost>7000</cost>
-            <nominalValue>17000</nominalValue>
-            <type>Municipal</type>
-         </securitypaper>
-         <securitypaper class="ru.sfedu.securityservice.models.Stock" id="2">
-            <name>Victor</name>
-            <cost>7000</cost>
-            <normalValue>17000</normalValue>
-            <category>PREFERENCE</category>
-         </securitypaper>
-         <securitypaper class="ru.sfedu.securityservice.models.ExchangeTradedFunction" id="1">
-            <name>Eugen</name>
-            <cost>8000</cost>
-            <direction>Stock</direction>
-         </securitypaper>
-         <securitypaper class="ru.sfedu.securityservice.models.Bond" id="1">
-            <name>Eugen</name>
-            <cost>8000</cost>
-            <nominalValue>18000</nominalValue>
-            <type>Government</type>
-         </securitypaper>
-         <securitypaper class="ru.sfedu.securityservice.models.Stock" id="1">
-            <name>Eugen</name>
-            <cost>8000</cost>
-            <normalValue>18000</normalValue>
-            <category>COMMON</category>
-         </securitypaper>
-         <securitypaper class="ru.sfedu.securityservice.models.ExchangeTradedFunction" id="1">
-            <name>Eugen</name>
-            <cost>8000</cost>
-            <direction>Stock</direction>
-         </securitypaper>
-      </favorites>
-   </object>
    <object class="ru.sfedu.securityservice.models.User" id="2">
       <name>Victor</name>
       <favorites class="java.util.ArrayList">
@@ -152,6 +113,83 @@
             <name>Eugen</name>
             <cost>8000</cost>
             <direction>Stock</direction>
+         </securitypaper>
+      </favorites>
+   </object>
+   <object class="ru.sfedu.securityservice.models.User" id="1">
+      <name>Eugen</name>
+      <favorites class="java.util.ArrayList">
+         <securitypaper class="ru.sfedu.securityservice.models.Bond" id="2">
+            <name>Victor</name>
+            <cost>7000</cost>
+            <nominalValue>17000</nominalValue>
+            <type>Municipal</type>
+         </securitypaper>
+         <securitypaper class="ru.sfedu.securityservice.models.Stock" id="2">
+            <name>Victor</name>
+            <cost>7000</cost>
+            <normalValue>17000</normalValue>
+            <category>PREFERENCE</category>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
+         </securitypaper>
+         <securitypaper id="1">
+            <name>Eugen</name>
+            <cost>8000</cost>
          </securitypaper>
       </favorites>
    </object>
